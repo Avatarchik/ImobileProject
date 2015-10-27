@@ -11,4 +11,7 @@ public class Switcher : MonoBehaviour {
 			Application.LoadLevel("AR");
 		}
 	}
+	public void Level(string level) {
+		Application.LoadLevel(level);
+	}
 }
