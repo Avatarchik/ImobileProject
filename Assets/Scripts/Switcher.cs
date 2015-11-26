@@ -12,6 +12,7 @@ public class Switcher : MonoBehaviour {
 		}
 	}
 	public void Level(string level) {
+		Debug.Log("loading:"+level);
 		Application.LoadLevel(level);
 	}
 }
